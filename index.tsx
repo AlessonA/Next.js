@@ -1,6 +1,6 @@
 import React from "react"
 import { NextPage } from "next"
-import imagens from '../../public/imagens/image.json'
+import imagens from './public/imagens/image.json'
 
 const Home: NextPage = () => {
   const Pre_render = () => {
@@ -17,7 +17,6 @@ const Home: NextPage = () => {
         <h1>Olá mundo</h1>
         <div className="carrosel-content">
           <Pre_render />
-          
         </div>
       </main>
     </>
