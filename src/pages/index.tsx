@@ -14,10 +14,9 @@ const Home: NextPage = () => {
   return (
     <>
       <main className="container">
-        <h1>Olá mundo</h1>
+        <h1>Olá mundo 2</h1>
         <div className="carrosel-content">
           <Pre_render />
-          
         </div>
       </main>
     </>
